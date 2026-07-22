@@ -21,5 +21,10 @@
   }
 }
 
-
-
+@media (max-width: 1160px) {
+  .paymentImg {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
