@@ -1,0 +1,13 @@
+.all_width {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+button:hover {
+  transform: translate(4px);
+}
+
+.all_btn_for_hower {
+  transition: all 0.3s ease-in-out;
+}

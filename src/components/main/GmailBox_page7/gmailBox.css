@@ -1,0 +1,58 @@
+.mainBoxGmail {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  background-color: #f4f6f6;
+
+  padding-bottom: 55px;
+  margin-bottom: 140px;
+
+  color: #222222;
+
+  > h5 {
+    margin-top: 70px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  > p {
+    font-size: 16px;
+  }
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+ 
+
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 4px 20px 4px 0px;
+  background-color: white;
+  max-width: max-content;
+  width: 100%;
+
+  > img {
+    margin-left: 17px;
+    max-width: 16px;
+  }
+
+  > input {
+    padding: 20px 100px 20px 12px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+
+  > button {
+    background-color: #305f64;
+    border: none;
+    color: white;
+    width: 125px;
+    height: 52px;
+    font-size: 16px;
+  }
+}

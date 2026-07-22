@@ -1,0 +1,79 @@
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 44px 0px 30px 0px;
+
+  > p {
+    font-size: 24px;
+  }
+}
+
+.headerLink_ul {
+  display: flex;
+  gap: 50px;
+
+  > li {
+    list-style: none;
+  }
+
+  > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+}
+
+.rightNaviBtn {
+  display: flex;
+  gap: 30px;
+
+  > button {
+    background: transparent;
+    border: none;
+  }
+
+  > button > img {
+    max-width: 24px;
+    width: 100%;
+  }
+}
+
+.headBurger {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  z-index: 2;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(113, 113, 113);
+
+  width: 100px;
+  height: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    > li > a {
+      color: white;
+    }
+  }
+
+  > button {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.headBurgerClosest {
+  display: none;
+}
+
+

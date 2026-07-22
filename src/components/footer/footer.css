@@ -1,0 +1,146 @@
+.greenBox {
+  background-color: #305f64;
+}
+
+.mainBoxFtr {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 100px;
+  padding-bottom: 85px;
+}
+
+/* DudeShape частина */
+
+.dudeShapeBox {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: white;
+
+  > h6 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  > p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.dudeShapeBoxChildren {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  > p {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
+}
+
+.FollowUsImgBox {
+  display: flex;
+  gap: 15px;
+
+  > img {
+    max-width: 20px;
+  }
+}
+
+/* Список Take a tour і Our company з писиланнями */
+
+.footerBox {
+  display: flex;
+  gap: 100px;
+  color: white;
+}
+
+.navFtrChild h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.navFtrChild ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.navFtrChild li {
+  margin-bottom: 16px;
+}
+
+.navFtrChild li:last-child {
+  margin-bottom: 0;
+}
+
+.navFtrChild a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Стилі для блоку Subscribe  */
+
+.subscribeFtrBox {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  color: white;
+
+  > h6 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.gmailFormSubscribe {
+  width: 230px;
+  height: 54px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+
+  margin-top: 20px;
+  padding-left: 22px;
+
+  > input {
+    border: none;
+    padding: 0px;
+    outline: none;
+  }
+
+  > button {
+    margin-right: 12px;
+
+    max-width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 50%;
+    background-color: initial;
+  }
+}
+
+/* Остання частинна підвалу */
+.greenBox2 {
+  background-color: #305f64;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #407980;
+
+  > a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+}
