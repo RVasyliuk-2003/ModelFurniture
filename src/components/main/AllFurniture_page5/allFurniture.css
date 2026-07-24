@@ -110,3 +110,39 @@
     color: #808080;
   }
 }
+@media (max-width: 1200px) {
+  .AllFurnitureMainBox {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .AllFurnitureMainBox {
+    margin-left: 30px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .FurnitureCategory {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .AllFurniture_ul {
+    margin-top: 40px;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .AllFurniture_ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .imgWind {
+    border-radius: 30px;
+  }
+}
