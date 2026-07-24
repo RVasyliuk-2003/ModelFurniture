@@ -17,7 +17,7 @@ const AppMain = () => {
       <AboutUs />
       <OurPopular />
       <AllFurniture />
-      {/* <OurCustomers /> */}
+      <OurCustomers />
       {/* <GmailBox /> */}
     </>
   );
