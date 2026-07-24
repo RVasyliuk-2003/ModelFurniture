@@ -18,7 +18,7 @@ const AppMain = () => {
       <OurPopular />
       <AllFurniture />
       <OurCustomers />
-      {/* <GmailBox /> */}
+      <GmailBox />
     </>
   );
 };
